@@ -15,6 +15,9 @@ The project is currently runnig using :
 * MongoDB
 * react
 * node
+* SCSS
+* Heroku
+* Netlify
 ----------------------------------------------------------------------------------------------
 
 
