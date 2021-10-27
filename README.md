@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# __Basic Inventory app__
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The idea
+--------------------------------------------------------------------------------------------------
+Inventory control is the bane of many small job shops. Going to do a job and then because of either a lack of communication or no rigid inventory management you find you have to order some tools. This apps goal is to help with that process while still in its infancy it allows users to add tools to the list and see how many they have left while editing the count as they go. 
+---------------------------------------------------------------------------
 
-## Available Scripts
+## __Technologies used__
+----------------------------------------------------------------------------------------------
+The project is currently runnig using :
+* Html5
+* CSS3
+* JavaScript
+* express
+* MongoDB
+* react
+* node
+----------------------------------------------------------------------------------------------
 
-In the project directory, you can run:
 
-### `npm start`
+## __WireFrame and ScreenShots__
+----------------------------------------------------------------------------------------------
+* Current wireframe idea
+![image of wireframe](https://i.imgur.com/GuvpjoG.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Current state of the app as of 10/27/21
+![image of app working](https://i.imgur.com/3JCzSLT.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Obsolete erd link is no longer
+* ![image of old erd](https://i.imgur.com/aOnGMyr.jpg)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+----------------------------------------------------------------------------------------------
+### __How to use__:
+----------------------------------------------------------------------------------------------
+Users opens app sees what the quantity of certain tool is or selects the tool and edits the quantity in the show page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### _link to app_
+https://quirky-minsky-a1104e.netlify.app/
+----------------------------------------------------------------------------------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## __Future Ideas__
+----------------------------------------------------------------------------------------------
+1. Add counter funtionality to qty on the index page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.Add a search function in case the list gets too long
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Add a second api to store tool sets in projects so setup personnel can look a tool set needed for different jobs.
+----------------------------------------------------------------------------------------------
+### __FAR OFF Ideas__ 
+----------------------------------------------------------------------------------------------
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  store speeds and and feeds data in the tools api to help identify the right tool for the job.
+  
+----------------------------------------------------------------------------------------------
